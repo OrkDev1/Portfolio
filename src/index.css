@@ -40,8 +40,7 @@ html,
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  width: 100vw;
-  height: 100vh;
+  background-color: oklch(17% 0 0);
 }
 
 @layer utilities {
@@ -53,8 +52,22 @@ body {
       transform: translateX(-100%);
     }
   }
-
   .animate-infinite-scroll {
     animation: infinite-scroll 25s linear infinite;
+  }
+
+  @keyframes gradient-text {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .animate-gradient-text {
+    animation: gradient-text 8s linear infinite;
   }
 }

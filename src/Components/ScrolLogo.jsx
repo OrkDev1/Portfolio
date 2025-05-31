@@ -17,7 +17,7 @@ const logos = [
 
 export default function ScrolLogo() {
   return (
-    <div className="w-full pointer-events-none inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] opacity-70">
+    <div className="w-full h-14 pointer-events-none inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)] opacity-70">
       {[...Array(2)].map((_, i) => (
         <ul key={i} className="flex items-center justify-center pointer-events-none md:justify-start [&_li]:mx-8 animate-infinite-scroll">
           {logos.map(({ icon, label }, idx) => (
