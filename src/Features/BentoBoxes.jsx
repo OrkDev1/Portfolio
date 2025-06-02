@@ -5,6 +5,7 @@ import ScrolLogo from "../Components/ScrolLogo";
 import Lego from "../Components/Lego";
 import Accordion from "../Components/Accordion";
 import SkillsTab from "../Components/SkillsTab";
+import { MoveHorizontal } from "lucide-react";
 
 export default function BentoBoxes() {
   const borderClass = "border-3 border-base-content/15";
@@ -100,7 +101,13 @@ export default function BentoBoxes() {
           <div className="card-body">
             <div>
               <h2 className="text-primary text-2xl font-bold tracking-tighter drop-shadow-sm drop-shadow-primary/80">My Projects</h2>
-              <h2 className="text-lg">Checkout my projects here, there are some cool stuff there! 😏</h2>
+              <div className=" flex items-center">
+                <h2 className="text-lg">Checkout my projects here, there are some cool stuff there! 😏</h2>
+                <div className="ml-auto font-bold badge badge-warning flex gap-1 items-center animate-pulse">
+                  Slide
+                  <MoveHorizontal className="w-4 h-4 animate-slideX" />
+                </div>
+              </div>
             </div>
             <div className="flex items-center w-full">
               <ProjectsCarousel />

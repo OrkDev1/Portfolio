@@ -76,6 +76,19 @@ body {
       background-position: 0% 50%;
     }
   }
+
+  @keyframes slideX {
+    0%,
+    100% {
+      transform: translateX(-2px);
+    }
+    50% {
+      transform: translateX(4px);
+    }
+  }
+  .animate-slideX {
+    animation: slideX 1.2s ease-in-out infinite;
+  }
   .animate-gradient-text {
     animation: gradient-text 8s linear infinite;
   }
