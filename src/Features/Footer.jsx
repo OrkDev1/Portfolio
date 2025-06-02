@@ -20,7 +20,7 @@ export default function Footer() {
           <a className="tooltip" data-tip="LinkedIn" href="https://www.github.com/Orkdev1" target="_blank">
             <Linkedin />
           </a>
-          <a className="tooltip" data-tip="Download CV" href="/CV.pdf" download="CV.pdf" target="_blank">
+          <a className="tooltip" data-tip="Download CV" href="CV.pdf" download="CV.pdf" target="_blank">
             <FileText />
           </a>
         </nav>

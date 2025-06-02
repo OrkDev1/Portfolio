@@ -16,7 +16,7 @@ export default function Header() {
             <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b_1f3fb/512.gif" className="-scale-x-100" alt="👋" width="52" height="32" />
           </picture>
         </div>
-        <a href="/CV.pdf" download="CV.pdf" className=" select-none cursor-pointer flex flex-col items-center gap-1 justify-center h-16">
+        <a href="CV.pdf" download="CV.pdf" className=" select-none cursor-pointer flex flex-col items-center gap-1 justify-center h-16">
           <FileText className="h-8 w-8" />
           <p className="tracking-tighter font-semibold text-md">View CV</p>
         </a>
