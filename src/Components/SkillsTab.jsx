@@ -9,15 +9,15 @@ const skills = {
     {
       label: "Motorcycles",
       icon: <Icon iconNode={motorRacingHelmet} />,
-      img: "/Misc/Motorcycle.jpg",
-      imgAlt: "/Misc/MotorcycleAlt.jpg",
+      img: "Misc/Motorcycle.jpg",
+      imgAlt: "Misc/MotorcycleAlt.jpg",
       description:
         "I got my license and first bike back in 2021. Since then, I've spent countless hours riding, tuning, and modifying it to match both performance and personality. After pushing it to the limit, it’s finally time for an upgrade. Something faster, sleeker, and a little more dangerous 😎",
     },
     {
       label: "Skydiving",
       icon: <Plane />,
-      img: "/Misc/Skydive.png",
+      img: "Misc/Skydive.png",
       description: "I took my first jump in 2024, and I've been hooked ever since. There's nothing quite like the silence after the exit and the rush of freefall. I’m currently working toward getting my license this year.",
     },
     {
@@ -35,7 +35,7 @@ const skills = {
     {
       label: "Photography",
       icon: <Camera />,
-      img: "/Misc/DikPik.jpg",
+      img: "Misc/DikPik.jpg",
       description:
         "I enjoy photography, especially self-portraits or portraits that carry meaning. It's not just about capturing moments as they happen but about creating them with intention. For me, the real magic lies in shaping a feeling, a scene, or a story that can live on in a single frame.",
     },

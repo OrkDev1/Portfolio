@@ -2,7 +2,7 @@ import React from "react";
 import ASCIIText from "../Components/ASCIIText";
 import ProjectsCarousel from "../Components/ProjectCarousel";
 import ScrolLogo from "../Components/ScrolLogo";
-import Lego from "../Lego";
+import Lego from "../Components/Lego";
 import Accordion from "../Components/Accordion";
 import SkillsTab from "../Components/SkillsTab";
 
@@ -32,7 +32,7 @@ export default function BentoBoxes() {
         <div className={`card rounded-box col-span-1 row-span-2 col-start-1 row-start-2 ${borderClass}`}>
           <div className="card-body overflow-hidden">
             <h2 className="text-primary text-2xl font-bold tracking-tighter drop-shadow-sm drop-shadow-primary/80">About</h2>
-            <img className="mask mask-squircle pointer-events-none" src="/img.jpg" />
+            <img className="mask mask-squircle pointer-events-none" src="img.jpg" />
             <div className="w-full">
               <h1 className="text-lg font-bold text-primary tracking-tight drop-shadow-sm drop-shadow-primary/80">Education</h1>
               <div className="divider mt-0 mb-0" />

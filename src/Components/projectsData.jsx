@@ -6,8 +6,8 @@ export const projectsData = [
   {
     title: "AeroDTA",
     subTitle: "AI aerial vehicle",
-    img: "/Projects/Project1/Project.png",
-    imgAlt: "/Projects/Project1/ProjectAlt.png",
+    img: "Projects/Project1/Project.png",
+    imgAlt: "Projects/Project1/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -56,8 +56,8 @@ export const projectsData = [
           </div>
         </div>
         <div className="flex gap-2 flex-col w-1/3 h-full  overflow-hidden">
-          <ZoomImage src="/Projects/Project1/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
-          <ZoomImage src="/Projects/Project1/ImgR2.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project1/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project1/ImgR2.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
         </div>
       </section>
     ),
@@ -65,8 +65,8 @@ export const projectsData = [
   {
     title: "Multi-Rover",
     subTitle: "Multi-terrain AI Rover",
-    img: "/Projects/Project2/Project.png",
-    imgAlt: "/Projects/Project2/ProjectAlt.png",
+    img: "Projects/Project2/Project.png",
+    imgAlt: "Projects/Project2/ProjectAlt.png",
     modalContent: (
       <section className="flex overflow-hidden gap-4 h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -117,8 +117,8 @@ export const projectsData = [
           </div>
         </div>
         <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
-          <ZoomImage src="/Projects/Project2/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
-          <ZoomImage src="/Projects/Project2/ImgR2.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project2/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project2/ImgR2.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
         </div>
       </section>
     ),
@@ -126,8 +126,8 @@ export const projectsData = [
   {
     title: "PCBs",
     subTitle: "Custom PCBs for projects",
-    img: "/Projects/Project3/Project.png",
-    imgAlt: "/Projects/Project3/ProjectAlt.png",
+    img: "Projects/Project3/Project.png",
+    imgAlt: "Projects/Project3/ProjectAlt.png",
     modalContent: (
       <section className="flex overflow-hidden gap-4 h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -155,9 +155,9 @@ export const projectsData = [
           </div>
         </div>
         <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
-          <ZoomImage src="/Projects/Project3/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
-          <ZoomImage src="/Projects/Project3/ImgR2.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
-          <ZoomImage src="/Projects/Project3/ImgR3.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project3/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project3/ImgR2.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project3/ImgR3.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
         </div>
       </section>
     ),
@@ -165,8 +165,8 @@ export const projectsData = [
   {
     title: "OneWheel",
     subTitle: "Diy onewheel prototype",
-    img: "/Projects/Project4/Project.png",
-    imgAlt: "/Projects/Project4/ProjectAlt.png",
+    img: "Projects/Project4/Project.png",
+    imgAlt: "Projects/Project4/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -208,10 +208,10 @@ export const projectsData = [
           </div>
         </div>
         <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
-          <ZoomImage src="/Projects/Project4/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project4/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
           <div className="h-full relative">
             <CirclePlay className="absolute top-[calc(50%-28px)] left-[calc(50%-28px)] size-14 text-primary-content drop-shadow-primary/80 drop-shadow-lg" />
-            <ZoomVideo src="/Projects/Project4/VideoR1.mp4" className="rounded-box aspect-square h-[90%] object-cover" controls muted playsInline />
+            <ZoomVideo src="Projects/Project4/VideoR1.mp4" className="rounded-box aspect-square h-[90%] object-cover" controls muted playsInline />
           </div>
         </div>
       </section>
@@ -220,8 +220,8 @@ export const projectsData = [
   {
     title: "NeuroLink",
     subTitle: "Mind to machine interface",
-    img: "/Projects/Project5/Project.png",
-    imgAlt: "/Projects/Project5/ProjectAlt.png",
+    img: "Projects/Project5/Project.png",
+    imgAlt: "Projects/Project5/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -266,8 +266,8 @@ export const projectsData = [
           </div>
         </div>
         <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
-          <ZoomImage src="/Projects/Project5/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
-          <ZoomImage src="/Projects/Project5/ImgR2.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project5/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project5/ImgR2.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
         </div>
       </section>
     ),
@@ -275,8 +275,8 @@ export const projectsData = [
   {
     title: "BalBot",
     subTitle: "Mobile Balancing Platform",
-    img: "/Projects/Project6/Project.png",
-    imgAlt: "/Projects/Project6/ProjectAlt.png",
+    img: "Projects/Project6/Project.png",
+    imgAlt: "Projects/Project6/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -339,12 +339,12 @@ export const projectsData = [
           </div>
         </div>
         <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
-          <ZoomImage src="/Projects/Project6/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project6/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
           <div className="h-full relative">
             <CirclePlay className="absolute top-[calc(50%-28px)] left-[calc(50%-28px)] size-14 text-primary-content drop-shadow-primary/80 drop-shadow-lg" />
-            <ZoomVideo src="/Projects/Project6/VideoR1.mp4" className="rounded-box aspect-square h-[90%] object-cover" controls muted playsInline />
+            <ZoomVideo src="Projects/Project6/VideoR1.mp4" className="rounded-box aspect-square h-[90%] object-cover" controls muted playsInline />
           </div>
-          <ZoomImage src="/Projects/Project6/ImgR2.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
+          <ZoomImage src="Projects/Project6/ImgR2.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
         </div>
       </section>
     ),
@@ -352,8 +352,8 @@ export const projectsData = [
   {
     title: "WristScan",
     subTitle: "Doppler Radar Wristband",
-    img: "/Projects/Project7/Project.png",
-    imgAlt: "/Projects/Project7/ProjectAlt.png",
+    img: "Projects/Project7/Project.png",
+    imgAlt: "Projects/Project7/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -459,7 +459,7 @@ export const projectsData = [
           </div>
         </div>
         <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
-          <ZoomImage src="/Projects/Project7/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project7/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
         </div>
       </section>
     ),
@@ -467,8 +467,8 @@ export const projectsData = [
   {
     title: "Lucky Core",
     subTitle: "OLED Emoji Slot",
-    img: "/Projects/Project8/Project.png",
-    imgAlt: "/Projects/Project8/ProjectAlt.png",
+    img: "Projects/Project8/Project.png",
+    imgAlt: "Projects/Project8/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -572,10 +572,10 @@ export const projectsData = [
           </div>
         </div>
         <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
-          <ZoomImage src="/Projects/Project8/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
+          <ZoomImage src="Projects/Project8/ImgR1.jpg" alt="" className="rounded-box aspect-square h-[90%] object-cover" />
           <div className="h-full relative">
             <CirclePlay className="absolute top-[calc(50%-28px)] left-[calc(50%-28px)] size-14 text-primary-content drop-shadow-primary/80 drop-shadow-lg" />
-            <ZoomVideo src="/Projects/Project8/VideoR1.mp4" className="rounded-box aspect-square h-[90%] object-cover" controls muted playsInline />
+            <ZoomVideo src="Projects/Project8/VideoR1.mp4" className="rounded-box aspect-square h-[90%] object-cover" controls muted playsInline />
           </div>
         </div>
       </section>
@@ -584,8 +584,8 @@ export const projectsData = [
   {
     title: "SeismoWatch",
     subTitle: "Global Quake Tracker",
-    img: "/Projects/Project9/Project.png",
-    imgAlt: "/Projects/Project9/ProjectAlt.png",
+    img: "Projects/Project9/Project.png",
+    imgAlt: "Projects/Project9/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -687,7 +687,7 @@ export const projectsData = [
           </div>
         </div>
         <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
-          <ZoomImage src="/Projects/Project9/ImgR1.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
+          <ZoomImage src="Projects/Project9/ImgR1.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
         </div>
       </section>
     ),
@@ -695,8 +695,8 @@ export const projectsData = [
   {
     title: "Mootify",
     subTitle: "Couples Emotion Watch",
-    img: "/Projects/Project10/Project.png",
-    imgAlt: "/Projects/Project10/ProjectAlt.png",
+    img: "Projects/Project10/Project.png",
+    imgAlt: "Projects/Project10/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -1109,9 +1109,9 @@ export const projectsData = [
           </div>
         </div>
         <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
-          <ZoomImage src="/Projects/Project10/ImgR1.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
-          <ZoomImage src="/Projects/Project10/ImgR2.jpg" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
-          <ZoomImage src="/Projects/Project10/ImgR3.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
+          <ZoomImage src="Projects/Project10/ImgR1.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
+          <ZoomImage src="Projects/Project10/ImgR2.jpg" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
+          <ZoomImage src="Projects/Project10/ImgR3.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
         </div>
       </section>
     ),
@@ -1119,7 +1119,7 @@ export const projectsData = [
   {
     title: "NeurexAI",
     subTitle: "NeurexAI Signal Engine",
-    img: "/Projects/Project11/Project.png",
+    img: "Projects/Project11/Project.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -1136,24 +1136,36 @@ export const projectsData = [
               <table className="table">
                 <thead>
                   <tr>
-                    <th></th> <th>Component</th> <th>Description</th>
+                    <th></th>
+                    <th>Component</th>
+                    <th>Description</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th>1</th> <td>Frontend</td> <td>Built with React and styled using TailwindCSS for a fast, responsive interface</td>
+                    <th>1</th>
+                    <td>Frontend</td>
+                    <td>Built with React and styled using TailwindCSS for a fast, responsive interface</td>
                   </tr>
                   <tr>
-                    <th>2</th> <td>Backend</td> <td>Express.js-based API handling routing, auth, payment logic, and TradingView integration</td>
+                    <th>2</th>
+                    <td>Backend</td>
+                    <td>Express.js-based API handling routing, auth, payment logic, and TradingView integration</td>
                   </tr>
                   <tr>
-                    <th>3</th> <td>Database</td> <td>MongoDB for storing users, subscriptions, and AI signal logs</td>
+                    <th>3</th>
+                    <td>Database</td>
+                    <td>MongoDB for storing users, subscriptions, and AI signal logs</td>
                   </tr>
                   <tr>
-                    <th>4</th> <td>Payments</td> <td>Stripe integration for monthly subscription and access management</td>
+                    <th>4</th>
+                    <td>Payments</td>
+                    <td>Stripe integration for monthly subscription and access management</td>
                   </tr>
                   <tr>
-                    <th>5</th> <td>External Integration</td> <td>TradingView API for managing user script access and syncing active signals</td>
+                    <th>5</th>
+                    <td>External Integration</td>
+                    <td>TradingView API for managing user script access and syncing active signals</td>
                   </tr>
                 </tbody>
               </table>
@@ -1173,21 +1185,31 @@ export const projectsData = [
               <table className="table">
                 <thead>
                   <tr>
-                    <th></th> <th>Aspect</th> <th>Description</th>
+                    <th></th>
+                    <th>Aspect</th>
+                    <th>Description</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th>1</th> <td>Revenue Model</td> <td>SaaS subscriptions charged monthly via Stripe</td>
+                    <th>1</th>
+                    <td>Revenue Model</td>
+                    <td>SaaS subscriptions charged monthly via Stripe</td>
                   </tr>
                   <tr>
-                    <th>2</th> <td>Licensing</td> <td>Users gained TradingView access only after successful Stripe checkout</td>
+                    <th>2</th>
+                    <td>Licensing</td>
+                    <td>Users gained TradingView access only after successful Stripe checkout</td>
                   </tr>
                   <tr>
-                    <th>3</th> <td>User Roles</td> <td>Synced MongoDB account with TradingView username for backend logic</td>
+                    <th>3</th>
+                    <td>User Roles</td>
+                    <td>Synced MongoDB account with TradingView username for backend logic</td>
                   </tr>
                   <tr>
-                    <th>4</th> <td>Uptime</td> <td>Automated system with very low operational cost and near-zero manual maintenance</td>
+                    <th>4</th>
+                    <td>Uptime</td>
+                    <td>Automated system with very low operational cost and near-zero manual maintenance</td>
                   </tr>
                 </tbody>
               </table>
@@ -1210,7 +1232,7 @@ export const projectsData = [
           </div>
         </div>
         <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
-          <ZoomImage src="/Projects/Project11/ImgR1.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
+          <ZoomImage src="Projects/Project11/ImgR1.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
         </div>
       </section>
     ),
@@ -1218,7 +1240,7 @@ export const projectsData = [
   {
     title: "AI Trading Tool",
     subTitle: "AI Signal Terminal",
-    img: "/Projects/Project12/Project.png",
+    img: "Projects/Project12/Project.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -1235,21 +1257,31 @@ export const projectsData = [
               <table className="table">
                 <thead>
                   <tr>
-                    <th></th> <th>Component</th> <th>Description</th>
+                    <th></th>
+                    <th>Component</th>
+                    <th>Description</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th>1</th> <td>Frontend</td> <td>Built with React and TailwindCSS to deliver a clean, responsive desktop UI</td>
+                    <th>1</th>
+                    <td>Frontend</td>
+                    <td>Built with React and TailwindCSS to deliver a clean, responsive desktop UI</td>
                   </tr>
                   <tr>
-                    <th>2</th> <td>Application Framework</td> <td>Electron for building a cross-platform desktop environment</td>
+                    <th>2</th>
+                    <td>Application Framework</td>
+                    <td>Electron for building a cross-platform desktop environment</td>
                   </tr>
                   <tr>
-                    <th>3</th> <td>Charting Interface</td> <td>Interactive graph output showing real-time AI signal points on market price data</td>
+                    <th>3</th>
+                    <td>Charting Interface</td>
+                    <td>Interactive graph output showing real-time AI signal points on market price data</td>
                   </tr>
                   <tr>
-                    <th>4</th> <td>Signal Control</td> <td>Users can select a symbol and timeframe, then deploy chosen AI algorithms</td>
+                    <th>4</th>
+                    <td>Signal Control</td>
+                    <td>Users can select a symbol and timeframe, then deploy chosen AI algorithms</td>
                   </tr>
                 </tbody>
               </table>
@@ -1261,21 +1293,31 @@ export const projectsData = [
               <table className="table">
                 <thead>
                   <tr>
-                    <th></th> <th>Model</th> <th>Function</th>
+                    <th></th>
+                    <th>Model</th>
+                    <th>Function</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th>1</th> <td>KNN with Lorentzian Distance</td> <td>Instance-based classifier using Lorentzian metric for proximity</td>
+                    <th>1</th>
+                    <td>KNN with Lorentzian Distance</td>
+                    <td>Instance-based classifier using Lorentzian metric for proximity</td>
                   </tr>
                   <tr>
-                    <th>2</th> <td>Multi-Perceptron</td> <td>Simple neural network for pattern classification and prediction</td>
+                    <th>2</th>
+                    <td>Multi-Perceptron</td>
+                    <td>Simple neural network for pattern classification and prediction</td>
                   </tr>
                   <tr>
-                    <th>3</th> <td>Q-learning (Reinforcement)</td> <td>Decision-making model for dynamic market response learning</td>
+                    <th>3</th>
+                    <td>Q-learning (Reinforcement)</td>
+                    <td>Decision-making model for dynamic market response learning</td>
                   </tr>
                   <tr>
-                    <th>4</th> <td>Manhattan Distance Voting</td> <td>Lightweight distance-based ensemble voting mechanism</td>
+                    <th>4</th>
+                    <td>Manhattan Distance Voting</td>
+                    <td>Lightweight distance-based ensemble voting mechanism</td>
                   </tr>
                 </tbody>
               </table>
@@ -1286,24 +1328,36 @@ export const projectsData = [
               <table className="table">
                 <thead>
                   <tr>
-                    <th></th> <th>Filter</th> <th>Description</th>
+                    <th></th>
+                    <th>Filter</th>
+                    <th>Description</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th>1</th> <td>EMA Filter</td> <td>Smooths price noise using Exponential Moving Average</td>
+                    <th>1</th>
+                    <td>EMA Filter</td>
+                    <td>Smooths price noise using Exponential Moving Average</td>
                   </tr>
                   <tr>
-                    <th>2</th> <td>Kalman Filter</td> <td>State estimation for predicting future market points</td>
+                    <th>2</th>
+                    <td>Kalman Filter</td>
+                    <td>State estimation for predicting future market points</td>
                   </tr>
                   <tr>
-                    <th>3</th> <td>Noise Isolation Filter</td> <td>Removes erratic signal spikes from low-volume noise</td>
+                    <th>3</th>
+                    <td>Noise Isolation Filter</td>
+                    <td>Removes erratic signal spikes from low-volume noise</td>
                   </tr>
                   <tr>
-                    <th>4</th> <td>Momentum Thresholding</td> <td>Limits false signals in flat markets based on volatility</td>
+                    <th>4</th>
+                    <td>Momentum Thresholding</td>
+                    <td>Limits false signals in flat markets based on volatility</td>
                   </tr>
                   <tr>
-                    <th>5</th> <td>Adaptive Slope Filter</td> <td>Filters only when sufficient directional momentum is detected</td>
+                    <th>5</th>
+                    <td>Adaptive Slope Filter</td>
+                    <td>Filters only when sufficient directional momentum is detected</td>
                   </tr>
                 </tbody>
               </table>
@@ -1321,24 +1375,36 @@ export const projectsData = [
               <table className="table">
                 <thead>
                   <tr>
-                    <th></th> <th>Technology</th> <th>Purpose</th>
+                    <th></th>
+                    <th>Technology</th>
+                    <th>Purpose</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th>1</th> <td>Electron</td> <td>Cross-platform desktop environment and app shell</td>
+                    <th>1</th>
+                    <td>Electron</td>
+                    <td>Cross-platform desktop environment and app shell</td>
                   </tr>
                   <tr>
-                    <th>2</th> <td>React</td> <td>UI framework for dynamic component-based structure</td>
+                    <th>2</th>
+                    <td>React</td>
+                    <td>UI framework for dynamic component-based structure</td>
                   </tr>
                   <tr>
-                    <th>3</th> <td>TailwindCSS</td> <td>Utility-first styling for responsive and dark-themed layout</td>
+                    <th>3</th>
+                    <td>TailwindCSS</td>
+                    <td>Utility-first styling for responsive and dark-themed layout</td>
                   </tr>
                   <tr>
-                    <th>4</th> <td>Chart.js</td> <td>Visual plotting of price data and signal markers</td>
+                    <th>4</th>
+                    <td>Chart.js</td>
+                    <td>Visual plotting of price data and signal markers</td>
                   </tr>
                   <tr>
-                    <th>5</th> <td>Node.js (main process)</td> <td>Handles local logic file access and background tasks</td>
+                    <th>5</th>
+                    <td>Node.js (main process)</td>
+                    <td>Handles local logic file access and background tasks</td>
                   </tr>
                 </tbody>
               </table>
@@ -1346,8 +1412,8 @@ export const projectsData = [
           </div>
         </div>
         <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
-          <ZoomImage src="/Projects/Project12/ImgR1.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
-          <ZoomImage src="/Projects/Project12/ImgR2.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
+          <ZoomImage src="Projects/Project12/ImgR1.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
+          <ZoomImage src="Projects/Project12/ImgR2.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
         </div>
       </section>
     ),

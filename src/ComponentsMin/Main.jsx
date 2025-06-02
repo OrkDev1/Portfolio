@@ -1,5 +1,5 @@
 import React from "react";
-import Lego from "../Lego";
+import Lego from "../Components/Lego";
 import SkillsTabs from "../Components/SkillsTab";
 import ProjectsCarousel from "./Projects";
 export default function Main() {
