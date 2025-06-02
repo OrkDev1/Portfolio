@@ -45,14 +45,10 @@ export default function ProjectsCarousel() {
                 <h1 className="text-2xl font-semibold tracking-tight">{project.title}</h1>
                 <p className="text-lg">{project.subTitle}</p>
               </div>
-              <div className="flex gap-2 w-fit ml-auto">
-                <button onClick={() => document.getElementById(project.title).showModal()} data-tip="Learn More" className="tooltip w-14 h-12 btn btn-outline border-base-content/50 border-2 rounded-box">
-                  <FileText />
-                </button>
-                <button data-tip="Source Code" className=" tooltip w-14 h-12 btn btn-outline border-base-content/50 border-2 rounded-box">
-                  <SquareArrowOutUpRight />
-                </button>
-              </div>
+              <button onClick={() => document.getElementById(project.title).showModal()} className="ml-auto h-12 btn btn-outline border-base-content/50 border-2 rounded-box">
+                <SquareArrowOutUpRight />
+                Source
+              </button>
             </div>
             <dialog id={project.title} className="modal cursor-auto">
               <div className="modal-box max-w-5xl relative bg-base-300 overflow-visible">

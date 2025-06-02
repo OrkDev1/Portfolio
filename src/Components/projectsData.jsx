@@ -6,7 +6,8 @@ export const projectsData = [
   {
     title: "AeroDTA",
     subTitle: "AI aerial vehicle",
-    img: "/Projects/Project1/Project1.png",
+    img: "/Projects/Project1/Project.png",
+    imgAlt: "/Projects/Project1/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -64,7 +65,8 @@ export const projectsData = [
   {
     title: "Multi-Rover",
     subTitle: "Multi-terrain AI Rover",
-    img: "/Projects/Project2/Project2.png",
+    img: "/Projects/Project2/Project.png",
+    imgAlt: "/Projects/Project2/ProjectAlt.png",
     modalContent: (
       <section className="flex overflow-hidden gap-4 h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -124,7 +126,8 @@ export const projectsData = [
   {
     title: "PCBs",
     subTitle: "Custom PCBs for projects",
-    img: "/Projects/Project3/Project3.png",
+    img: "/Projects/Project3/Project.png",
+    imgAlt: "/Projects/Project3/ProjectAlt.png",
     modalContent: (
       <section className="flex overflow-hidden gap-4 h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -162,7 +165,8 @@ export const projectsData = [
   {
     title: "OneWheel",
     subTitle: "Diy onewheel prototype",
-    img: "/Projects/Project4/Project4.png",
+    img: "/Projects/Project4/Project.png",
+    imgAlt: "/Projects/Project4/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -216,7 +220,8 @@ export const projectsData = [
   {
     title: "NeuroLink",
     subTitle: "Mind to machine interface",
-    img: "/Projects/Project5/Project5.png",
+    img: "/Projects/Project5/Project.png",
+    imgAlt: "/Projects/Project5/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -270,7 +275,8 @@ export const projectsData = [
   {
     title: "BalBot",
     subTitle: "Mobile Balancing Platform",
-    img: "/Projects/Project6/Project6.png",
+    img: "/Projects/Project6/Project.png",
+    imgAlt: "/Projects/Project6/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -346,7 +352,8 @@ export const projectsData = [
   {
     title: "WristScan",
     subTitle: "Doppler Radar Wristband",
-    img: "/Projects/Project7/Project7.png",
+    img: "/Projects/Project7/Project.png",
+    imgAlt: "/Projects/Project7/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -356,7 +363,7 @@ export const projectsData = [
             <h2 className="font-semibold text-lg">Overview:</h2>
             <p className="py-2">
               A wearable radar-based proximity and motion feedback system. The device detects up to 3 people within a 5-meter range using a dual-antenna Doppler radar, then translates their relative speed, distance, and direction into haptic feedback
-              using two vibration motors. It’s compact, fast, and ideal for ambient awareness or assistive tech.{" "}
+              using two vibration motors. It’s compact, fast, and ideal for ambient awareness or assistive tech.
             </p>
             <h2 className="font-semibold text-lg">Hardware Components:</h2>
             <h3 className="font-bold">Doppler Radar Module (Dual RX Antennas)</h3>
@@ -460,7 +467,8 @@ export const projectsData = [
   {
     title: "Lucky Core",
     subTitle: "OLED Emoji Slot",
-    img: "/Projects/Project8/Project8.png",
+    img: "/Projects/Project8/Project.png",
+    imgAlt: "/Projects/Project8/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -576,7 +584,8 @@ export const projectsData = [
   {
     title: "SeismoWatch",
     subTitle: "Global Quake Tracker",
-    img: "/Projects/Project9/Project9.png",
+    img: "/Projects/Project9/Project.png",
+    imgAlt: "/Projects/Project9/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -587,7 +596,7 @@ export const projectsData = [
             <h2 className="font-semibold text-lg">Overview:</h2>
             <p className="py-2">
               This mobile application provides real-time global earthquake monitoring by aggregating seismic data from multiple authoritative sources — namely USGS (United States Geological Survey) and AFAD (Turkey's Disaster and Emergency Management
-              Authority). The app is designed to offer an intuitive, visual way to stay informed about seismic activity around the world.{" "}
+              Authority). The app is designed to offer an intuitive, visual way to stay informed about seismic activity around the world.
             </p>
             <h2 className="font-semibold text-lg">Key Features:</h2>
             <h3 className="font-bold">Live Data Feeds</h3>
@@ -686,7 +695,8 @@ export const projectsData = [
   {
     title: "Mootify",
     subTitle: "Couples Emotion Watch",
-    img: "/Projects/Project10/Project10.png",
+    img: "/Projects/Project10/Project.png",
+    imgAlt: "/Projects/Project10/ProjectAlt.png",
     modalContent: (
       <section className="flex gap-4 overflow-y-hidden h-[80vh]">
         <div className="flex flex-col w-2/3 h-full overflow-hidden">
@@ -870,7 +880,7 @@ export const projectsData = [
                 &nbsp;&nbsp;<span className="text-yellow-300">pinMode</span>(<span className="text-yellow-300">BUTTON_PIN</span>, <span className="text-yellow-300">INPUT_PULLUP</span>);
               </p>
               <p>
-                &nbsp;&nbsp;<span className="text-yellow-300">esp_deep_sleep_enable_gpio_wakeup</span>(<span className="text-amber-400">1</span> &lt;&lt; <span className="text-yellow-300">BUTTON_PIN</span>,{" "}
+                &nbsp;&nbsp;<span className="text-yellow-300">esp_deep_sleep_enable_gpio_wakeup</span>(<span className="text-amber-400">1</span> &lt;&lt; <span className="text-yellow-300">BUTTON_PIN</span>,
                 <span className="text-yellow-300">ESP_GPIO_WAKEUP_GPIO_LOW</span>);
               </p>
               <p>
@@ -903,7 +913,7 @@ export const projectsData = [
                 <span className="text-yellow-300">createCharacteristic</span>(
               </p>
               <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-yellow-300">CHARACTERISTIC_UUID</span>, <span className="text-yellow-300">BLECharacteristic</span>::<span className="text-yellow-300">PROPERTY_READ</span> |{" "}
+                &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-yellow-300">CHARACTERISTIC_UUID</span>, <span className="text-yellow-300">BLECharacteristic</span>::<span className="text-yellow-300">PROPERTY_READ</span> |
                 <span className="text-yellow-300">BLECharacteristic</span>::<span className="text-yellow-300">PROPERTY_WRITE</span>);
               </p>
               <p>
@@ -940,7 +950,7 @@ export const projectsData = [
                 &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-purple-400">if</span> (value.length() &gt; <span className="text-amber-400">0</span>) &#123;
               </p>
               <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-cyan-400">char</span> <span className="text-yellow-300">receivedText</span>[<span className="text-amber-400">21</span>] = &#123; <span className="text-amber-400">0</span>{" "}
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-cyan-400">char</span> <span className="text-yellow-300">receivedText</span>[<span className="text-amber-400">21</span>] = &#123; <span className="text-amber-400">0</span>
                 &#125;;
               </p>
               <p>
@@ -950,7 +960,7 @@ export const projectsData = [
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;receivedText[value.length()] = <span className="text-rose-500">'\\0'</span>;
               </p>
               <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-cyan-400">char</span> *<span className="text-yellow-300">splitText</span> = <span className="text-yellow-300">strtok</span>(receivedText,{" "}
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-cyan-400">char</span> *<span className="text-yellow-300">splitText</span> = <span className="text-yellow-300">strtok</span>(receivedText,
                 <span className="text-green-400">&quot;&amp;&quot;</span>);
               </p>
               <p>
@@ -990,7 +1000,7 @@ export const projectsData = [
                 &nbsp;&nbsp;<span className="text-yellow-300">gfx</span>-&gt;<span className="text-yellow-300">setRotation</span>(<span className="text-amber-400">1</span>);
               </p>
               <p>
-                &nbsp;&nbsp;<span className="text-yellow-300">gfx</span>-&gt;<span className="text-yellow-300">draw16bitRGBBitmap</span>(<span className="text-amber-400">128</span>, <span className="text-yellow-300">IMG_Y</span>,{" "}
+                &nbsp;&nbsp;<span className="text-yellow-300">gfx</span>-&gt;<span className="text-yellow-300">draw16bitRGBBitmap</span>(<span className="text-amber-400">128</span>, <span className="text-yellow-300">IMG_Y</span>,
                 <span className="text-yellow-300">images</span>[<span className="text-yellow-300">ind</span>], <span className="text-yellow-300">IMG_WIDTH</span>, <span className="text-yellow-300">IMG_HEIGHT</span>);
               </p>
               <p>
@@ -1000,7 +1010,7 @@ export const projectsData = [
                 &nbsp;&nbsp;<span className="text-yellow-300">gfx</span>-&gt;<span className="text-yellow-300">setTextColor</span>(<span className="text-yellow-300">RGB565_WHITE</span>);
               </p>
               <p>
-                &nbsp;&nbsp;<span className="text-yellow-300">gfx</span>-&gt;<span className="text-yellow-300">setTextSize</span>(<span className="text-amber-400">2</span>, <span className="text-amber-400">3</span>,{" "}
+                &nbsp;&nbsp;<span className="text-yellow-300">gfx</span>-&gt;<span className="text-yellow-300">setTextSize</span>(<span className="text-amber-400">2</span>, <span className="text-amber-400">3</span>,
                 <span className="text-amber-400">0</span>);
               </p>
               <p>
@@ -1057,7 +1067,7 @@ export const projectsData = [
                 &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-yellow-300">pressStartTime</span> = <span className="text-yellow-300">millis</span>();
               </p>
               <p>
-                &nbsp;&nbsp;&#125; <span className="text-purple-400">else if</span> (<span className="text-yellow-300">pressStartTime</span> &gt; <span className="text-amber-400">0</span> &amp;&amp; <span className="text-yellow-300">millis</span>() -{" "}
+                &nbsp;&nbsp;&#125; <span className="text-purple-400">else if</span> (<span className="text-yellow-300">pressStartTime</span> &gt; <span className="text-amber-400">0</span> &amp;&amp; <span className="text-yellow-300">millis</span>() -
                 <span className="text-yellow-300">pressStartTime</span> &gt;= <span className="text-amber-400">3000</span>) &#123;
               </p>
               <p>
@@ -1102,6 +1112,242 @@ export const projectsData = [
           <ZoomImage src="/Projects/Project10/ImgR1.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
           <ZoomImage src="/Projects/Project10/ImgR2.jpg" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
           <ZoomImage src="/Projects/Project10/ImgR3.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
+        </div>
+      </section>
+    ),
+  },
+  {
+    title: "NeurexAI",
+    subTitle: "NeurexAI Signal Engine",
+    img: "/Projects/Project11/Project.png",
+    modalContent: (
+      <section className="flex gap-4 overflow-y-hidden h-[80vh]">
+        <div className="flex flex-col w-2/3 h-full overflow-hidden">
+          <h1 className="font-bold text-xl">NeurexAI – Project Documentation</h1>
+          <div className="divider mt-0 mb-0" />
+          <div className="overflow-y-auto h-full pr-2">
+            <h2 className="font-semibold text-lg">Overview:</h2>
+            <p className="py-2">
+              NeurexAI was a next-generation AI-based trading indicator built for TradingView. The product provided buy (long) and sell (short) signals using a system of three custom AI algorithms. The platform aimed to simplify technical analysis
+              and help traders make better decisions through intelligent automation.
+            </p>
+            <h2 className="font-semibold text-lg">Technology:</h2>
+            <div className="overflow-x-auto">
+              <table className="table">
+                <thead>
+                  <tr>
+                    <th></th> <th>Component</th> <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1</th> <td>Frontend</td> <td>Built with React and styled using TailwindCSS for a fast, responsive interface</td>
+                  </tr>
+                  <tr>
+                    <th>2</th> <td>Backend</td> <td>Express.js-based API handling routing, auth, payment logic, and TradingView integration</td>
+                  </tr>
+                  <tr>
+                    <th>3</th> <td>Database</td> <td>MongoDB for storing users, subscriptions, and AI signal logs</td>
+                  </tr>
+                  <tr>
+                    <th>4</th> <td>Payments</td> <td>Stripe integration for monthly subscription and access management</td>
+                  </tr>
+                  <tr>
+                    <th>5</th> <td>External Integration</td> <td>TradingView API for managing user script access and syncing active signals</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h2 className="font-semibold text-lg mt-2">AI System Description</h2>
+            <p>NeurexAI operated with three layered AI algorithms:</p>
+            <ul>
+              <li> ●Trend AI — Detected directional trends based on candle pattern behavior and volume response</li>
+              <li> ●Filter AI — Smoothed volatility and reduced false signals using statistical filtering</li>
+              <li> ●Consensus AI — Compared outputs from the other two and validated signal confidence</li>
+            </ul>
+            <p>The system outputted a clear LONG or SHORT signal to the user via a private TradingView script.</p>
+
+            <h2 className="font-bold text-lg mt-2">Business & Revenue</h2>
+            <div className="overflow-x-auto">
+              <table className="table">
+                <thead>
+                  <tr>
+                    <th></th> <th>Aspect</th> <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1</th> <td>Revenue Model</td> <td>SaaS subscriptions charged monthly via Stripe</td>
+                  </tr>
+                  <tr>
+                    <th>2</th> <td>Licensing</td> <td>Users gained TradingView access only after successful Stripe checkout</td>
+                  </tr>
+                  <tr>
+                    <th>3</th> <td>User Roles</td> <td>Synced MongoDB account with TradingView username for backend logic</td>
+                  </tr>
+                  <tr>
+                    <th>4</th> <td>Uptime</td> <td>Automated system with very low operational cost and near-zero manual maintenance</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h2 className="font-bold text-lg mt-2">Marketing Strategy</h2>
+            <p>NeurexAI grew through lightweight but effective marketing efforts:</p>
+            <ul>
+              <li>● Reddit outreach on subreddits like r/algotrading and r/cryptocurrency</li>
+              <li>● SEO-optimized landing page targeting "AI TradingView indicator" keywords</li>
+              <li>● Community-first approach with Discord group support</li>
+              <li>● Design-first branding using a dark, minimal, futuristic layout</li>
+              <li>● Trial offers and discount codes to increase early user conversion</li>
+            </ul>
+            <h2 className="font-bold text-lg mt-2">Outcome</h2>
+            <p>
+              ● NeurexAI was used in live market conditions for over a year with paying users. It proved viable as a self-sustained full-stack product. The blend of AI signal generation, TradingView script delivery, and Stripe-backed user management
+              made it a lean and highly automated system.
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
+          <ZoomImage src="/Projects/Project11/ImgR1.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
+        </div>
+      </section>
+    ),
+  },
+  {
+    title: "AI Trading Tool",
+    subTitle: "AI Signal Terminal",
+    img: "/Projects/Project12/Project.png",
+    modalContent: (
+      <section className="flex gap-4 overflow-y-hidden h-[80vh]">
+        <div className="flex flex-col w-2/3 h-full overflow-hidden">
+          <h1 className="font-bold text-xl">AI Trading Tool – Project Documentation</h1>
+          <div className="divider mt-0 mb-0" />
+          <div className="overflow-y-auto h-full pr-2">
+            <h2 className="font-semibold text-lg">Overview:</h2>
+            <p className="py-2">
+              This AI-powered trading desktop application is designed to generate trade signals in real market conditions using a blend of machine learning models and signal filtering techniques. Built as a standalone tool using Electron, React, and
+              TailwindCSS, it allows the user to choose a symbol and timeframe, deploy an AI model, and view its output directly on a plotted chart.
+            </p>
+            <h2 className="font-semibold text-lg">Technology:</h2>
+            <div className="overflow-x-auto">
+              <table className="table">
+                <thead>
+                  <tr>
+                    <th></th> <th>Component</th> <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1</th> <td>Frontend</td> <td>Built with React and TailwindCSS to deliver a clean, responsive desktop UI</td>
+                  </tr>
+                  <tr>
+                    <th>2</th> <td>Application Framework</td> <td>Electron for building a cross-platform desktop environment</td>
+                  </tr>
+                  <tr>
+                    <th>3</th> <td>Charting Interface</td> <td>Interactive graph output showing real-time AI signal points on market price data</td>
+                  </tr>
+                  <tr>
+                    <th>4</th> <td>Signal Control</td> <td>Users can select a symbol and timeframe, then deploy chosen AI algorithms</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h2 className="font-semibold text-lg mt-2">AI Algorithm Architecture:</h2>
+            <p>This tool uses a multi-algorithm approach combining traditional machine learning with advanced mathematical filtering.</p>
+            <div className="overflow-x-auto">
+              <table className="table">
+                <thead>
+                  <tr>
+                    <th></th> <th>Model</th> <th>Function</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1</th> <td>KNN with Lorentzian Distance</td> <td>Instance-based classifier using Lorentzian metric for proximity</td>
+                  </tr>
+                  <tr>
+                    <th>2</th> <td>Multi-Perceptron</td> <td>Simple neural network for pattern classification and prediction</td>
+                  </tr>
+                  <tr>
+                    <th>3</th> <td>Q-learning (Reinforcement)</td> <td>Decision-making model for dynamic market response learning</td>
+                  </tr>
+                  <tr>
+                    <th>4</th> <td>Manhattan Distance Voting</td> <td>Lightweight distance-based ensemble voting mechanism</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h2 className="font-bold text-lg mt-2">Filtering Pipeline:</h2>
+            <p>Multiple filtering layers are applied to clean and refine signal data before plotting.</p>
+            <div className="overflow-x-auto">
+              <table className="table">
+                <thead>
+                  <tr>
+                    <th></th> <th>Filter</th> <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1</th> <td>EMA Filter</td> <td>Smooths price noise using Exponential Moving Average</td>
+                  </tr>
+                  <tr>
+                    <th>2</th> <td>Kalman Filter</td> <td>State estimation for predicting future market points</td>
+                  </tr>
+                  <tr>
+                    <th>3</th> <td>Noise Isolation Filter</td> <td>Removes erratic signal spikes from low-volume noise</td>
+                  </tr>
+                  <tr>
+                    <th>4</th> <td>Momentum Thresholding</td> <td>Limits false signals in flat markets based on volatility</td>
+                  </tr>
+                  <tr>
+                    <th>5</th> <td>Adaptive Slope Filter</td> <td>Filters only when sufficient directional momentum is detected</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h2 className="font-bold text-lg mt-2">User Features:</h2>
+            <ul>
+              <li>● Select trading symbol and timeframe from dropdowns</li>
+              <li>● View chart with green (buy) and red (sell) signal dots over price line</li>
+              <li>● Deploy models with a single button</li>
+              <li>● Browse signal history (planned feature)</li>
+            </ul>
+            <h2 className="font-bold text-lg mt-2">Technical Stack:</h2>
+            <div className="overflow-x-auto">
+              <table className="table">
+                <thead>
+                  <tr>
+                    <th></th> <th>Technology</th> <th>Purpose</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1</th> <td>Electron</td> <td>Cross-platform desktop environment and app shell</td>
+                  </tr>
+                  <tr>
+                    <th>2</th> <td>React</td> <td>UI framework for dynamic component-based structure</td>
+                  </tr>
+                  <tr>
+                    <th>3</th> <td>TailwindCSS</td> <td>Utility-first styling for responsive and dark-themed layout</td>
+                  </tr>
+                  <tr>
+                    <th>4</th> <td>Chart.js</td> <td>Visual plotting of price data and signal markers</td>
+                  </tr>
+                  <tr>
+                    <th>5</th> <td>Node.js (main process)</td> <td>Handles local logic file access and background tasks</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div className="flex gap-2 flex-col w-1/3 h-full overflow-y-auto overflow-hidden">
+          <ZoomImage src="/Projects/Project12/ImgR1.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
+          <ZoomImage src="/Projects/Project12/ImgR2.png" alt="" className="rounded-box aspect-square h-[90%] object-contain" />
         </div>
       </section>
     ),

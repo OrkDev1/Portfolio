@@ -235,6 +235,14 @@ class CanvAscii {
     this.height = height;
     this.enableWaves = enableWaves;
 
+    this.mouseInside = false;
+    this.onMouseEnter = () => {
+      this.mouseInside = true;
+    };
+    this.onMouseLeave = () => {
+      this.mouseInside = false;
+    };
+
     this.camera = new THREE.PerspectiveCamera(45, this.width / this.height, 1, 1000);
     this.camera.position.z = 15;
 
@@ -295,6 +303,8 @@ class CanvAscii {
     this.container.appendChild(this.filter.domElement);
     this.setSize(this.width, this.height);
 
+    this.container.addEventListener("mouseenter", this.onMouseEnter);
+    this.container.addEventListener("mouseleave", this.onMouseLeave);
     this.container.addEventListener("mousemove", this.onMouseMove);
     this.container.addEventListener("touchmove", this.onMouseMove);
   }
@@ -345,11 +355,17 @@ class CanvAscii {
   }
 
   updateRotation() {
-    const x = Math.map(this.mouse.y, 0, this.height, 0.5, -0.5);
-    const y = Math.map(this.mouse.x, 0, this.width, -0.5, 0.5);
+    if (this.mouseInside) {
+      const x = Math.map(this.mouse.y, 0, this.height, -0.5, 0.5);
+      const y = Math.map(this.mouse.x, 0, this.width, -0.5, 0.5);
 
-    this.mesh.rotation.x += (x - this.mesh.rotation.x) * 0.02;
-    this.mesh.rotation.y += (y - this.mesh.rotation.y) * 0.02;
+      this.mesh.rotation.x += (x - this.mesh.rotation.x) * 0.02;
+      this.mesh.rotation.y += (y - this.mesh.rotation.y) * 0.02;
+    } else {
+      // Smoothly return to 0 rotation
+      this.mesh.rotation.x += (0 - this.mesh.rotation.x) * 0.02;
+      this.mesh.rotation.y += (0 - this.mesh.rotation.y) * 0.02;
+    }
   }
 
   clear() {
@@ -374,6 +390,8 @@ class CanvAscii {
     this.container.removeChild(this.filter.domElement);
     this.container.removeEventListener("mousemove", this.onMouseMove);
     this.container.removeEventListener("touchmove", this.onMouseMove);
+    this.container.removeEventListener("mouseenter", this.onMouseEnter);
+    this.container.removeEventListener("mouseleave", this.onMouseLeave);
     this.clear();
     this.renderer.dispose();
   }
